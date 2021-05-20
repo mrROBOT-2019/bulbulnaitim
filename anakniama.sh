@@ -2,10 +2,10 @@
 #this script is created by stormTEAM for debian 9
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 MYIP=$(wget -qO- ipv4.icanhazip.com)
-dbhost='localhost';
-dbuser='localusername';
-dbpass='localpassword';
-dbname='localdb';
+dbhost='174.138.183.242';
+dbuser='clickweb_clickweb_worldtech2021';
+dbpass='clickweb_worldtech2021';
+dbname='clickweb_worldtech2021';
 cacert='-----BEGIN CERTIFICATE-----
 MIIE5TCCA82gAwIBAgIJAP0GLynOqm38MA0GCSqGSIb3DQEBCwUAMIGnMQswCQYD
 VQQGEwJQSDERMA8GA1UECBMIQmF0YW5nYXMxETAPBgNVBAcTCEJhdGFuZ2FzMRIw
