@@ -13,9 +13,6 @@ DatabaseName='clickweb_worldtech2021'
 apt -y install php
 apt install -y php-cli net-tools curl cron php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-bcmath php-json
 
-#Moving old conf file 
-mv /etc/openvpn/server.conf /etc/openvpn/serverbak.conf
-
 #Creating folder
 mkdir /etc/openvpn/script
 mkdir /home/panel/html/stat
